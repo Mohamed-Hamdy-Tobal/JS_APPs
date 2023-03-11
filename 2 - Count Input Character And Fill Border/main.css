@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    width: 300px;
+    margin: 30px auto;
+}
+
+input {
+    padding: 14px;
+    width: 100%;
+    border: navajowhite;
+    border-bottom: 2px solid #d7d7d7;
+    background: #fbfbfb;
+    box-sizing: border-box;
+}
+input:focus {
+    outline: none;
+}
+.progress {
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: darkturquoise;
+    position: relative;
+    bottom: 2px;
+    transition: 0.5s;
+}
+.count {
+    text-align: right;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+}
+.zero {
+    font-weight: bold;
+    color: tomato;
+}
